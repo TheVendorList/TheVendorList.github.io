@@ -299,6 +299,15 @@
       flex-shrink: 0;
     }
 
+    #noteModalBody a {
+        color: var(--primary);
+        text-decoration: underline;
+    }
+
+    #noteModalBody a:hover {
+        opacity: 0.85;
+    }
+
     .subcatSearchWrap {
       position: relative;
       flex: 1;
@@ -3264,9 +3273,9 @@
       });
 
       if (note?.title && note?.text && localStorage.getItem('tvl_note_seen') !== note.title) {
-        $('noteModalTitle').textContent = note.title;
-        $('noteModalBody').textContent  = note.text;
-        noteOverlay.classList.add('open');
+          $('noteModalTitle').textContent = note.title;
+          $('noteModalBody').innerHTML = note.text; // <-- changed
+          noteOverlay.classList.add('open');
       }
 
       updateHeaderTitle();

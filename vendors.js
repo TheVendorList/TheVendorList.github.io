@@ -4,8 +4,7 @@ const Note = {
 
 Proof of ownership is required for all removal or modification requests. If you email me directly from your business email, there is no need.
 
-Discord: discord.gg/4mnGTXbzk4 
-Email: thevendorlist@proton.me  
+Have a question or need to get in contact? Reach out via our <a href="https://discord.gg/4mnGTXbzk4" target="_blank" rel="noopener noreferrer">Discord</a> server or email <b>thevendorlist@proton.me</b> directly.
 
 — Admin`
 };
