@@ -123,7 +123,7 @@ const SubCategories = {
 
   Opioids: [
     { name: "Natural kratom", url: "https://psychonautwiki.org/wiki/Kratom" },
-    { name: "7-Hydroxymitragynine", url: "https://en.wikipedia.org/wiki/7-Hydroxymitragynine" },
+    { name: "7-OH", url: "https://en.wikipedia.org/wiki/7-OH" },
     { name: "MGM-15", url: "https://en.wikipedia.org/wiki/MGM-15" },
     { name: "Pseudoindoxyl", url: "https://en.wikipedia.org/wiki/Mitragynine_pseudoindoxyl" },
     { name: "O-DSMT", url: "https://psychonautwiki.org/wiki/O-DSMT" },
@@ -1592,7 +1592,7 @@ const Vendors = [
     {
         Title: "KRATOM DISTRO",
         Sections: ["Opioids"],
-        SubSections: ["Natural kratom", "7-Hydroxymitragynine", "MGM-15"],
+        SubSections: ["Natural kratom", "7-OH", "MGM-15"],
         ShipsTo: ["United States Of America"],
 
         IsNew: false,
@@ -1605,7 +1605,7 @@ const Vendors = [
     {
         Title: "The Powder Solutions",
         Sections: ["Opioids"],
-        SubSections: ["Natural kratom", "7-Hydroxymitragynine", "Pseudoindoxyl", "MGM-15"],
+        SubSections: ["Natural kratom", "7-OH", "Pseudoindoxyl", "MGM-15"],
         ShipsTo: ["United States Of America"],
 
         IsNew: false,
@@ -1617,7 +1617,7 @@ const Vendors = [
     {
         Title: "7STAX",
         Sections: ["Opioids"],
-        SubSections: ["Natural kratom", "7-Hydroxymitragynine", "Pseudoindoxyl", "MGM-15"],
+        SubSections: ["Natural kratom", "7-OH", "Pseudoindoxyl", "MGM-15"],
         ShipsTo: ["United States Of America"],
 
         IsNew: false,
@@ -1629,7 +1629,7 @@ const Vendors = [
     {
         Title: "Pure Leaf Kratom",
         Sections: ["Opioids"],
-        SubSections: ["Natural kratom", "7-Hydroxymitragynine", "Pseudoindoxyl", "MGM-15"],
+        SubSections: ["Natural kratom", "7-OH", "Pseudoindoxyl", "MGM-15"],
         ShipsTo: ["United States Of America"],
 
         IsNew: false,
@@ -1642,7 +1642,7 @@ const Vendors = [
     {
         Title: "7OHMZ",
         Sections: ["Opioids"],
-        SubSections: ["7-Hydroxymitragynine"],
+        SubSections: ["7-OH"],
         ShipsTo: ["United States Of America"],
 
         IsNew: false,
@@ -1655,7 +1655,7 @@ const Vendors = [
     {
         Title: "Bulk Kratom Now",
         Sections: ["Opioids"],
-        SubSections: ["Natural kratom", "7-Hydroxymitragynine", "Pseudoindoxyl", "MGM-15"],
+        SubSections: ["Natural kratom", "7-OH", "Pseudoindoxyl", "MGM-15"],
         ShipsTo: ["United States Of America"],
 
         IsNew: false,
@@ -1679,7 +1679,7 @@ const Vendors = [
     {
         Title: "BRONX EXTRACTS",
         Sections: ["Opioids"],
-        SubSections: ["Natural kratom", "7-Hydroxymitragynine", "Pseudoindoxyl", "MGM-15"],
+        SubSections: ["Natural kratom", "7-OH", "Pseudoindoxyl", "MGM-15"],
         ShipsTo: ["United States Of America"],
 
         IsNew: false,
@@ -1701,7 +1701,7 @@ const Vendors = [
     {
         Title: "ETXtracts",
         Sections: ["Opioids"],
-        SubSections: ["7-Hydroxymitragynine", "Pseudoindoxyl", "MGM-15"],
+        SubSections: ["7-OH", "Pseudoindoxyl", "MGM-15"],
         ShipsTo: ["United States Of America"],
         IsNew: false,
         Buttons: [
@@ -1722,7 +1722,7 @@ const Vendors = [
     {
         Title: "Stout Alkz",
         Sections: ["Opioids"],
-        SubSections: ["Natural kratom", "7-Hydroxymitragynine", "Pseudoindoxyl", "MGM-15", "SR-17018"],
+        SubSections: ["Natural kratom", "7-OH", "Pseudoindoxyl", "MGM-15", "SR-17018"],
         ShipsTo: ["United States Of America"],
         IsNew: false,
         Buttons: [
@@ -1732,7 +1732,7 @@ const Vendors = [
     {
         Title: "Koalaty Kratom",
         Sections: ["Opioids"],
-        SubSections: ["7-Hydroxymitragynine", "Pseudoindoxyl", "MGM-15"],
+        SubSections: ["7-OH", "Pseudoindoxyl", "MGM-15"],
         ShipsTo: ["United States Of America"],
         IsNew: false,
         Buttons: [
@@ -1742,7 +1742,7 @@ const Vendors = [
     {
         Title: "Catalyst Edge Labs",
         Sections: ["Opioids"],
-        SubSections: ["7-Hydroxymitragynine", "Pseudoindoxyl", "MGM-15"],
+        SubSections: ["7-OH", "Pseudoindoxyl", "MGM-15"],
         ShipsTo: ["United States Of America"],
         IsNew: false,
         Buttons: [
@@ -1752,7 +1752,7 @@ const Vendors = [
     {
         Title: "Ritually Pure",
         Sections: ["Opioids"],
-        SubSections: ["7-Hydroxymitragynine", "Pseudoindoxyl", "MGM-15"],
+        SubSections: ["7-OH", "Pseudoindoxyl", "MGM-15"],
         ShipsTo: ["United States Of America"],
         IsNew: false,
         Buttons: [
