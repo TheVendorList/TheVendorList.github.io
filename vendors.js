@@ -1,12 +1,10 @@
 const Note = {
     title: "📋 What's New",
-    text: `If you would like your brand removed from the The Vendor List or need any changes made, please contact me using the details below.
+    text: `If you would like your website removed from the The Vendor List or need any changes made, please contact me using the details below.
 
 Proof of ownership is required for all removal or modification requests. If you email me directly from your business email, there is no need.
 
-Have a question or need to get in contact? Reach out via our <a href="https://discord.gg/4mnGTXbzk4" target="_blank" rel="noopener noreferrer">Discord</a> server or email <b>thevendorlist@proton.me</b> directly.
-
-<b>Sadly, our community is being targeted, causing our subreddit and Discord server to be repeatedly taken down. If you can't join right now, try again later. Thanks for your patience.</b>
+Have a question or need to get in contact? Reach out via our <a href="https://discord.gg/4mnGTXbzk4" target="_blank" rel="noopener noreferrer">Discord server</a> or email <b>thevendorlist@proton.me</b> directly.
 
 — Admin`
 };
