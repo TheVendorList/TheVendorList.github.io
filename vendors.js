@@ -90,15 +90,20 @@ const SubCategories = {
     { name: "2-FMA", url: "https://psychonautwiki.org/wiki/2-FMA" },
     { name: "4-FMA", url: "https://psychonautwiki.org/wiki/4-FMA" },
     { name: "Methylphenidate", url: "https://psychonautwiki.org/wiki/methylphenidate" },
+    { name: "Dexmethylphenidate", url: "https://en.wikipedia.org/wiki/Dexmethylphenidate"},
     { name: "MDPIHP", url: null },
     { name: "2-Me-PiHP", url: null },
     { name: "4-MeTMP", url: "https://en.wikipedia.org/wiki/4-Methylmethylphenidate" },
-    { name: "DMNPC", url: "https://en.wikipedia.org/wiki/N,O-Dimethyl-4-(2-naphthyl)piperidine-3-carboxylate" }
+    { name: "DMNPC", url: "https://en.wikipedia.org/wiki/N,O-Dimethyl-4-(2-naphthyl)piperidine-3-carboxylate" },
+    { name: "Lisdexamfetamine", url: "https://en.wikipedia.org/wiki/Lisdexamfetamine"}
   ],
 
   Benzodiazepines: [
+    { name: "Alprazolam", url: "https://psychonautwiki.org/wiki/alprazolam"},
     { name: "Flualprazolam", url: "https://psychonautwiki.org/wiki/Flualprazolam" },
     { name: "Rilmazofone", url: "https://en.wikipedia.org/wiki/Rilmazafone" },
+    { name: "Bromazolam", url: "https://en.wikipedia.org/wiki/Bromazolam"},
+    { name: "Etizolam", url: "https://en.wikipedia.org/wiki/Etizolam"},
     { name: "Clobromazolam", url: "https://en.wikipedia.org/wiki/Phenazolam" },
     { name: "Norflurazepam", url: "https://en.wikipedia.org/wiki/N-Desalkylflurazepam" },
     { name: "Pynazolam", url: "https://en.wikipedia.org/wiki/Pynazolam" },
@@ -107,6 +112,8 @@ const SubCategories = {
     { name: "Ethyl-Flualprazolam", url: "https://en.wikipedia.org/wiki/Ethylflualprazolam" },
     { name: "Ethyl-Bromazolam", url: "https://en.wikipedia.org/wiki/Ethylbromazolam" },
     { name: "Clonazepam", url: "https://en.wikipedia.org/wiki/Clonazepam" },
+    { name: "Lorazepam", url: "https://en.wikipedia.org/wiki/Lorazepam" },
+    { name: "Bromazepam", url: "https://en.wikipedia.org/wiki/Bromazepam" },
     { name: "Nifoxipam", url: "https://en.wikipedia.org/wiki/Nifoxipam" },
     { name: "Avizafone", url: "https://en.wikipedia.org/wiki/Avizafone" },
     { name: "Tianeptine", url: "https://en.wikipedia.org/wiki/Tianeptine" },
@@ -116,7 +123,9 @@ const SubCategories = {
     { name: "Fluclotizolam", url: "https://en.wikipedia.org/wiki/Fluclotizolam" },
     { name: "Fluloprazolam", url: "https://en.wikipedia.org/wiki/Fluloprazolam" },
     { name: "Rilmazafone", url: "https://en.wikipedia.org/wiki/Rilmazafone" },
-    { name: "3-Hydroxyphenazepam", url: "https://en.wikipedia.org/wiki/3-Hydroxyphenazepam" }
+    { name: "3-Hydroxyphenazepam", url: "https://en.wikipedia.org/wiki/3-Hydroxyphenazepam" },
+    { name: "Midazolam", url: "https://en.wikipedia.org/wiki/Midazolam"},
+    { name: "Temazepam", url: "https://en.wikipedia.org/wiki/Temazepam"}
   ],
 
   Opioids: [
@@ -127,7 +136,10 @@ const SubCategories = {
     { name: "O-DSMT", url: "https://psychonautwiki.org/wiki/O-DSMT" },
     { name: "Codiene", url: "https://psychonautwiki.org/wiki/Codiene" },
     { name: "Dihydrocodiene", url: "https://en.wikipedia.org/wiki/Dihydrocodeine" },
+    { name: "Hydrocodone", url: "https://psychonautwiki.org/wiki/Hydrocodone"},
     { name: "Oxycodone", url: "https://psychonautwiki.org/wiki/Oxycodone" },
+    { name: "Morphine", url: "https://psychonautwiki.org/wiki/Morphine"},
+    { name: "Oxymorphone", url: "https://psychonautwiki.org/wiki/Oxymorphone"},
     { name: "Tramadol", url: "https://psychonautwiki.org/wiki/Tramadol" },
     { name: "Tapetadol", url: null },
     { name: "Tapentadol", url: "https://en.wikipedia.org/wiki/Tapentadol" },
@@ -136,7 +148,10 @@ const SubCategories = {
     { name: "DPP-26", url: "https://en.wikipedia.org/wiki/DPP-26" },
     { name: "SR-17018", url: "https://en.wikipedia.org/wiki/SR-17018" },
     { name: "SR-14968", url: "https://en.wikipedia.org/wiki/SR-14968" },
-    { name: "Nortilidine", url: "https://en.wikipedia.org/wiki/Nortilidine" }
+    { name: "Nortilidine", url: "https://en.wikipedia.org/wiki/Nortilidine" },
+    { name: "Methadone", url: "https://en.wikipedia.org/wiki/Methadone"},
+    { name: "Hydromorphone", url: "https://en.wikipedia.org/wiki/Hydromorphone"},
+    { name: "Buprenorphine", url: "https://en.wikipedia.org/wiki/Buprenorphine"}
   ],
 
   Peptides: [
@@ -169,9 +184,27 @@ const SubCategories = {
     { name: "Zopiclone", url: "https://en.wikipedia.org/wiki/Zopiclone" },
     { name: "Zolpidem", url: "https://en.wikipedia.org/wiki/Zolpidem" },
     { name: "Promethazine", url: "https://psychonautwiki.org/wiki/Promethazine"},
+    { name: "Cyclobenzaprine", url: "https://en.wikipedia.org/wiki/Cyclobenzaprine"},
     { name: "Eszopiclone", url: "https://en.wikipedia.org/wiki/Eszopiclone"},
     { name: "Pregabalin", url: "https://en.wikipedia.org/wiki/Pregabalin"},
-    { name: "Baclofen", url: "https://en.wikipedia.org/wiki/Baclofen"}
+    { name: "Baclofen", url: "https://en.wikipedia.org/wiki/Baclofen"},
+    { name: "Selegiline", url: "https://en.wikipedia.org/wiki/Selegiline"},
+    { name: "Atomoxetine", url: "https://en.wikipedia.org/wiki/Atomoxetine"},
+    { name: "Clomipramine", url: "https://en.wikipedia.org/wiki/Clomipramine"},
+    { name: "Clozapine", url: "https://en.wikipedia.org/wiki/Clozapine"},
+    { name: "Fluoxetine", url: "https://en.wikipedia.org/wiki/Fluoxetine"},
+    { name: "Tofisopam", url: "https://en.wikipedia.org/wiki/Tofisopam"},
+    { name: "Trazodone", url: "https://en.wikipedia.org/wiki/Trazodone"},
+    { name: "Armodafinil", url: "https://en.wikipedia.org/wiki/Armodafinil"},
+    { name: "Finasteride", url: "https://en.wikipedia.org/wiki/Finasteride"},
+    { name: "Phentermine", url: "https://en.wikipedia.org/wiki/Phentermine"},
+    { name: "Buspirone", url: "https://en.wikipedia.org/wiki/Buspirone"},
+    { name: "Escitalopram", url: "https://en.wikipedia.org/wiki/Escitalopram"},
+    { name: "Liraglutide", url: "https://en.wikipedia.org/wiki/Liraglutide"},
+    { name: "Prednisone", url: "https://en.wikipedia.org/wiki/Prednisone"},
+    { name: "Oxandrolone", url: "https://en.wikipedia.org/wiki/Oxandrolone"},
+    { name: "Sertraline", url: "https://en.wikipedia.org/wiki/Sertraline"},
+    { name: "Paroxetine", url: "https://en.wikipedia.org/wiki/Paroxetine"}
   ]
 };
 
@@ -1986,18 +2019,107 @@ const Vendors = [
         Buttons: [
             { Text: "Website", Link: "https://etizola.com/" }
         ]
+    },
+    {
+        Title: "Prozac Buy",
+        Sections: [
+            "Opioids", "Benzodiazepines", "Other"
+        ],
+        SubSections: [
+            "Clonazepam", "Diazepam", "Gabapentin", "Lorazepam", "Modafinil", "Carisoprodol",
+            "Tapentadol", "Zopiclone", "Zolpidem", "Baclofen", "Selegiline", "Tianeptine", "Atomoxetine",
+            "Clomipramine", "Clozapine", "Fluoxetine", "Tofisopam", "Eszopiclone"
+        ],
+        ShipsTo: ["United States Of America"],
+        DateAdded: "7/8/2026",
+        Buttons: [
+            { Text: "Website", Link: "https://prozacbuy.com/" }
+        ]
+    },
+    {
+        Title: "Prime Chems",
+        Sections: [
+            "Stimulants", "Opioids", "Benzodiazepines", "Other"
+        ],
+        SubSections: [
+            "Armodafinil", "Tapentadol", "Bromazepam", "Carisoprodol", "Sildenafil", "Tramadol", "Diazepam",
+            "Gabapentin", "Finasteride", "Lorazepam", "Methadone", "Modafinil", "Phentermine", "Methylphenidate",
+            "Alprazolam", "Zolpidem", "Zopiclone", "Bromazolam", "Etizolam"
+        ],
+        ShipsTo: ["United States Of America"],
+        DateAdded: "7/8/2026",
+        Buttons: [
+            { Text: "Website", Link: "https://primechems.shop/" }
+        ]
+    },
+    {
+        Title: "INDUSAMED",
+        Sections: [
+            "Opioids", "Benzodiazepines", "Other"
+        ],
+        SubSections: [
+            "Etizolam", "Armodafinil", "Cyclobenzaprine", "Eszopiclone", "Gabapentin", "Pregabalin", "Tapentadol", "Tofisopam", "Zopiclone",
+            "Carisoprodol"
+        ],
+        ShipsTo: ["United States Of America"],
+        DateAdded: "7/8/2026",
+        Buttons: [
+            { Text: "Website", Link: "https://indusamed.com/" }
+        ]
+    },
+    {
+        Title: "MediStore24",
+        Sections: [
+            "Opioids", "Benzodiazepines", "Other"
+        ],
+        SubSections: [
+            "Etizolam", "Armodafinil", "Bromazolam", "Buspirone", "Alprazolam", "Clonazepam", "Diazepam", "Gabapentin", "Modafinil", "Carisoprodol",
+            "Tapentadol", "Lorazepam", "Zolpidem", "Zopiclone", "Escitalopram", "Eszopiclone", "Clobromazolam", "Selegiline", "Tofisopam", "Trazodone",
+            "Liraglutide"
+        ],
+        ShipsTo: ["United States Of America"],
+        DateAdded: "7/8/2026",
+        Buttons: [
+            { Text: "Website", Link: "https://medistore24.com/" }
+        ]
+    },
+    {
+        Title: "BUY ETIZOLAM",
+        Sections: [
+            "Opioids", "Benzodiazepines", "Other"
+        ],
+        SubSections: [
+            "Armodafinil", "Carisoprodol", "Gabapentin", "Cyclobenzaprine", "Modafinil", "Pregabalin", "Tapentadol", "Tofisopam", "Zopiclone",
+            "Sertraline", "Eszopiclone", "Prednisone", "Oxandrolone"
+        ],
+        ShipsTo: ["United States Of America"],
+        DateAdded: "7/8/2026",
+        Buttons: [
+            { Text: "Website", Link: "https://buyetizolam.net/" }
+        ]
+    },
+    {
+        Title: "MEDIXO",
+        Sections: [
+            "Stimulants", "Psychedelics", "Opioids", "Benzodiazepines", "Dissociatives", "Other"
+        ],
+        SubSections: [
+            "Amphetamine", "Zolpidem", "Bromazepam", "Codiene", "Methylphenidate", "Diazepam", "Hydromorphone", "Methadone", "Etizolam", "Fluoxetine",
+            "Dexmethylphenidate", "Gabapentin", "Hydrocodone", "Ketamine", "Escitalopram", "Lorazepam", "Midazolam", "Nitrazepam", "Morphine", "Oxymorphone",
+            "Oxycodone", "Paroxetine", "Phentermine", "Modafinil", "Shrooms", "Temazepam", "Clonazepam", "Carisoprodol", "Buprenorphine", "Tapentadol",
+            "Tramadol", "Sildenafil", "Lisdexamfetamine", "Alprazolam", "Sertraline", "Zopiclone"
+        ],
+        ShipsTo: ["International", "United States Of America"],
+        DateAdded: "7/8/2026",
+        Buttons: [
+            { Text: "Website", Link: "https://medixo.co/" }
+        ]
     }
 ];
 
 
 /* ADD THESE:
-prozacbuy.com
-primechems.shop
-indusamed.com
-medistore24.com
-buyetizolam.net
 rxdirectmeds.com
-medixo.co
 comprartapentadol.com
 https://purplesticky.com/
 */
