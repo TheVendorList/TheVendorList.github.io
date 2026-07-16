@@ -1531,10 +1531,10 @@ const Vendors = [
         SubSections: ["5-MAPB", "4-HO-MET", "4-HO-DET", "4-PrO-DMT", "SR-17018", "MGM-15", "7-OH"],
         ShipsTo: ["United States Of America"],
 
-        IsNew: false, IsRecommended: true,
+        IsNew: false, IsRecommended: false,
         
         Buttons: [
-        { Text: "Website", Link: "https://wickedtablets.store/" }
+            { Text: "Website", Link: "https://wickedtablets.store/" }
         ]
     },
     {
